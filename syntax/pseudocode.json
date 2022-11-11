@@ -1,0 +1,39 @@
+{
+    "scopeName": "text.pseudocode",
+    "fileTypes": [
+        "pseudocode",
+        "pseudo-code",
+        "pseudo",
+        "psdce",
+        "psce",
+        "pdce",
+        "psc"
+    ],
+    "patterns": [
+        {
+            "include": "syntax.if",
+            "begin": ""
+        },
+        {
+            "include": "syntax.for"
+        },
+        {
+            "include": "syntax.loop"
+        },
+        {
+            "include": "syntax.while"
+        },
+        {
+            "include": "comment.block"
+        },
+        {
+            "include": "comment.line"
+        },
+        {
+            "include": "syntax.function"
+        },
+        {
+            "include": "syntax.return"
+        }
+    ]
+}
