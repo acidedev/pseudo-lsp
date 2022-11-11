@@ -11,29 +11,65 @@
     ],
     "patterns": [
         {
-            "include": "syntax.if",
+            "include": "syntax.control.if",
             "begin": ""
         },
         {
-            "include": "syntax.for"
+            "include": "syntax.control.for"
         },
         {
-            "include": "syntax.loop"
+            "include": "syntax.control.loop"
         },
         {
-            "include": "syntax.while"
+            "include": "syntax.control.while"
         },
         {
-            "include": "comment.block"
+            "include": "syntax.comment.block"
         },
         {
-            "include": "comment.line"
+            "include": "syntax.comment.line"
         },
         {
-            "include": "syntax.function"
+            "include": "syntax.identifier.function"
         },
         {
-            "include": "syntax.return"
+            "include": "syntax.control.return"
+        },
+        {
+            "include": "syntax.operate.to"
+        },
+        {
+            "include": "syntax.operate.downto"
+        },
+        {
+            "include": "syntax.operate.by"
+        },
+        {
+            "include": "syntax.control.repeat-until"
+        },
+        {
+            "include": "syntax.control.elif"
+        },
+        {
+            "include": "syntax.control.else"
+        },
+        {
+            "include": "syntax.operate.dot"
+        },
+        {
+            "include": "syntax.operate.and"
+        },
+        {
+            "include": "syntax.operate.or"
+        },
+        {
+            "include": "syntax.identifier.error"
+        },
+        {
+            "include": "syntax.identifier.nil"
+        },
+        {
+            "include": "syntax.operate.bracket"
         }
     ]
 }
