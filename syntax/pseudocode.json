@@ -39,5 +39,6 @@
         { "include": "string.quoted.double" },
         { "include": "variable" },
         { "include": "variable.parameter" }
-    ]
+    ],
+    
 }

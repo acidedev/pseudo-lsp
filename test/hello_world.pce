@@ -1,0 +1,4 @@
+HELLO_WORLD ()//function name
+ str = "HELLO WORLD!"
+ ans = "42"
+ return str , ans

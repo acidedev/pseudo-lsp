@@ -1,0 +1,21 @@
+{
+    "contributes": {
+        "languages": [
+            {
+                "id": "pseudo code",
+                "extensions": [
+                    ".pseudocode",
+                    ".pseudo",
+                    ".pce"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pseudo code",
+                "scopeName": "source.pseudocode",
+                "path": "./pseudocode.json"
+            }
+        ]
+    }
+}
