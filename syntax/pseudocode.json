@@ -10,66 +10,25 @@
         "psc"
     ],
     "patterns": [
-        {
-            "include": "syntax.control.if",
-            "begin": ""
-        },
-        {
-            "include": "syntax.control.for"
-        },
-        {
-            "include": "syntax.control.loop"
-        },
-        {
-            "include": "syntax.control.while"
-        },
-        {
-            "include": "syntax.comment.block"
-        },
-        {
-            "include": "syntax.comment.line"
-        },
-        {
-            "include": "syntax.identifier.function"
-        },
-        {
-            "include": "syntax.control.return"
-        },
-        {
-            "include": "syntax.operate.to"
-        },
-        {
-            "include": "syntax.operate.downto"
-        },
-        {
-            "include": "syntax.operate.by"
-        },
-        {
-            "include": "syntax.control.repeat-until"
-        },
-        {
-            "include": "syntax.control.elif"
-        },
-        {
-            "include": "syntax.control.else"
-        },
-        {
-            "include": "syntax.operate.dot"
-        },
-        {
-            "include": "syntax.operate.and"
-        },
-        {
-            "include": "syntax.operate.or"
-        },
-        {
-            "include": "syntax.identifier.error"
-        },
-        {
-            "include": "syntax.identifier.nil"
-        },
-        {
-            "include": "syntax.operate.bracket"
-        }
+        { "include": "comment.line.double-slash" },
+        { "include": "comment.block" },
+        { "include": "constant.numeric" },
+        { "include": "constant.character" },
+        { "include": "constant.character.escape" },
+        { "include": "constant.character.language.true" },
+        { "include": "constant.character.language.false" },
+        { "include": "constant.character.language.nil" },
+        { "include": "constant.character.language.error" },
+        { "include": "entity.name.function" },
+        { "include": "keyword.control.continue" },
+        { "include": "keyword.control.if" },
+        { "include": "keyword.control.for" },
+        { "include": "keyword.control.while" },
+        { "include": "keyword.control.return" },
+        { "include": "keyword.operator.or" },
+        { "include": "keyword.operator.and" },
+        { "include": "keyword.operator.nor" },
+        { "include": "keyword.operator.to" },
+        { "include": "keyword.operator.downto" },
     ]
 }
