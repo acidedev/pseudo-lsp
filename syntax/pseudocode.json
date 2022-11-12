@@ -1,13 +1,10 @@
 {
-    "scopeName": "text.pseudocode",
+    "name": "Pseudo Code",
+    "scopeName": "source.pseudocode",
     "fileTypes": [
         "pseudocode",
-        "pseudo-code",
         "pseudo",
-        "psdce",
-        "psce",
-        "pdce",
-        "psc"
+        "pce"
     ],
     "patterns": [
         { "include": "comment.line.double-slash" },
@@ -15,20 +12,32 @@
         { "include": "constant.numeric" },
         { "include": "constant.character" },
         { "include": "constant.character.escape" },
+        { "include": "constant.character.language.nil" },
         { "include": "constant.character.language.true" },
         { "include": "constant.character.language.false" },
-        { "include": "constant.character.language.nil" },
         { "include": "constant.character.language.error" },
         { "include": "entity.name.function" },
-        { "include": "keyword.control.continue" },
+        { "include": "keyword.control.by" },
         { "include": "keyword.control.if" },
+        { "include": "keyword.control.to" },
         { "include": "keyword.control.for" },
+        { "include": "keyword.control.ret" },
         { "include": "keyword.control.while" },
+        { "include": "keyword.control.downto" },
         { "include": "keyword.control.return" },
+        { "include": "keyword.control.continue" },
         { "include": "keyword.operator.or" },
         { "include": "keyword.operator.and" },
+        { "include": "keyword.operator.not" },
         { "include": "keyword.operator.nor" },
-        { "include": "keyword.operator.to" },
-        { "include": "keyword.operator.downto" },
+        { "include": "keyword.operator.xor" },
+        { "include": "keyword.operator.xnor" },
+        { "include": "keyword.operator.nand" },
+        { "include": "support.type" },
+        { "include": "support.constant" },
+        { "include": "string.quoted.single" },
+        { "include": "string.quoted.double" },
+        { "include": "variable" },
+        { "include": "variable.parameter" }
     ]
 }
