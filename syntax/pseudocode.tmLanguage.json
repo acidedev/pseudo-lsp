@@ -1,0 +1,218 @@
+{
+    "name": "pseudo code",
+    "scopeName": "source.pseudocode",
+    "fileTypes": [
+        "pseudocode",
+        "pseudo",
+        "pce"
+    ],
+    "patterns": [
+        { "include": "#comment" },
+        { "include": "#constant" },
+        { "include": "#entity" },
+        { "include": "#keyword" },
+        { "include": "#support" },
+        { "include": "#string" },
+        { "include": "#variable" }
+    ],
+    "repository": [
+        "comment": {
+            "patterns": [{
+				"name": "comment",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        }
+        "double-slash": {
+			"patterns": [{
+				"name": "comment.line.double-slash",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+		},
+        "block": {
+            "patterns": [{
+				"name": "comment.block",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "numeric": {
+            "patterns": [{
+				"name": "constant.numeric",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "character": {
+            "patterns": [{
+				"name": "constant.character",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "numeric": {
+            "patterns": [{
+				"name": "constant.numeric",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "escape": {
+            "patterns": [{
+				"name": "constant.character.escape",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "nil": {
+            "patterns": [{
+                "name": "constant.character.language.nil",
+                "match": "\\b(if|while|for|return)\\b"
+            }]
+        }
+        "true": {
+            "patterns": [{
+				"name": "constant.character.language.true",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "false": {
+            "patterns": [{
+				"name": "constant.character.language.false",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "error": {
+            "patterns": [{
+				"name": "constant.character.language.error",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "function": {
+            "patterns": [{
+				"name": "entity.name.function",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "by": {
+            "patterns": [{
+				"name": "keyword.control.by",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "if": {
+            "patterns": [{
+				"name": "keyword.control.if",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "to": {
+            "patterns": [{
+				"name": "keyword.control.to",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "for": {
+            "patterns": [{
+				"name": "keyword.control.for",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "while": {
+            "patterns": [{
+				"name": "keyword.control.while",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "downto": {
+            "patterns": [{
+				"name": "keyword.control.downto",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "return": {
+            "patterns": [{
+				"name": "keyword.control.return",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "continue": {
+            "patterns": [{
+				"name": "keyword.control.continue",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "or": {
+            "patterns": [{
+				"name": "keyword.operate.or",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "and": {
+            "patterns": [{
+				"name": "keyword.operate.and",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "not": {
+            "patterns": [{
+				"name": "keyword.operate.not",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "nor": {
+            "patterns": [{
+				"name": "keyword.operate.nor",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "xor": {
+            "patterns": [{
+				"name": "keyword.operate.xor",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "xnor": {
+            "patterns": [{
+				"name": "keyword.operate.xnor",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "xand": {
+            "patterns": [{
+				"name": "keyword.operate.xand",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "type": {
+            "patterns": [{
+				"name": "support.type",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "constant": {
+            "patterns": [{
+				"name": "support.constant",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "singlequote": {
+            "patterns": [{
+				"name": "string.quoted.single",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "doublequote": {
+            "patterns": [{
+				"name": "string.quoted.double",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "variable": {
+            "patterns": [{
+				"name": "variable",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+        "parameter": {
+            "patterns": [{
+				"name": "variable.parameter",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+        },
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "pseudo-lsp",
+  "displayName": "pseudo-lsp",
+  "description": "Vscode Support for pseudo codes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "pseudocode",
+      "aliases": ["pseudo code", "pseudocode"],
+      "extensions": [".pseudocode",".pseudo",".pce"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "pseudocode",
+      "scopeName": "source.pseudocode",
+      "path": "./syntaxes/pseudocode.tmLanguage.json"
+    }]
+  }
+}
